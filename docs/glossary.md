@@ -1,16 +1,34 @@
-# Glossary
-
-## Claim
-Request made by a customer for insurance payment.
+# Insurance Glossary
 
 ## FNOL
-First Notice of Loss.
+First Notice Of Loss
 
-## Settlement
-Amount paid by the insurer.
+First notification given by customer
+about an accident or incident.
 
 ## Underwriting
-Process of evaluating insurance risk.
+Process of evaluating risk before
+providing insurance.
 
-## Fraud
-Suspicious or fake claim.
+## Settlement
+Final payment made by insurer.
+## Policy
+The insurance agreement between the customer and insurance company.
+
+## Deductible
+The amount the customer pays before insurance covers the remaining cost.
+
+## Agent
+An AI component that performs a specific task in the claims process.
+
+## LangGraph
+A framework used to connect multiple AI agents in a workflow.
+
+## State
+The shared claim information passed between agents.
+
+## Node
+An individual agent in the workflow.
+
+## Edge
+A connection that determines which agent runs next.
