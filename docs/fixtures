@@ -1,0 +1,56 @@
+# Fixture Pairs
+
+## Pair 1 - Consistent
+
+Base:
+Decision = Approved
+Settlement = 1000
+
+Variant:
+Decision = Approved
+Settlement = 1000
+
+Verdict = Consistent
+
+---
+
+## Pair 2 - Unexpected Divergence
+
+Base:
+Decision = Approved
+Settlement = 1000
+
+Variant:
+Decision = Rejected
+Settlement = 1000
+
+Verdict = Unexpected Divergence
+
+---
+
+## Pair 3 - Expected Divergence
+
+Base:
+Decision = Approved
+Settlement = 1000
+
+Variant:
+Decision = Rejected
+Settlement = 500
+
+Verdict = Expected Divergence
+
+---
+
+## Pair 4 - Missed Sensitivity
+
+Base:
+Decision = Approved
+Settlement = 1000
+
+Variant:
+Decision = Approved
+Settlement = 1000
+
+Verdict = Missed Sensitivity
+``
